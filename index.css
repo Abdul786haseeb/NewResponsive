@@ -1,0 +1,86 @@
+*{padding: 0%; margin: 0%;}
+
+.one{padding-left: 3.3em;}
+.hd {color: rgb(31, 206, 206);letter-spacing: 1px;font-size: 2em;}
+.hd3 {color: rgb(169, 243, 22);letter-spacing: 1px;font-size: 1.5em;}
+.parr{color: rgb(165, 168, 170);letter-spacing: .5px;font-size: 1.3em;}
+
+.two{padding-left: 3.3em;float: left;background-color: rgb(29, 153, 153);
+color: white;height: 55vh;width: 44.88vw;letter-spacing: 1px;}
+.size {font-size: 2em;} .prmnt {color: rgb(213, 224, 224);}
+.btn {background-color: rgb(136, 247, 9);height: 3.4em;color: white;
+width: 22em;border-radius: .6em;letter-spacing: 1px;}
+.sinn {font-size: 1.4em;}
+
+
+.three{float: right;background-color: rgb(21, 196, 196);width: 42.65vw;
+color: white;padding:50px;padding-top: 3.7em;height: 15.73em;letter-spacing: 1px;}
+
+.text {line-height: 1.8em;}
+
+@media only screen and (min-width:320px) and (max-width:375px){
+  .one {padding: 0%;margin:0%;}  
+  .hd{font-size:1.4em;}.hd3 {font-size: 1em;} 
+  .parr{font-size: .9em;line-height: 2em;letter-spacing: 0em;
+color: rgb(185, 178, 178);font-weight: bold;}
+  .one {padding-left: 16px;}
+
+  .two{padding: 0%;margin: 0%;
+width: 100vw;height: 15em;} .btn {width: 75vw;height: 2.8em;}
+.two {padding-left: 1.5em;font-size: .8em;} 
+
+.three {padding: 0%;margin: 0%;padding-top: 1.2em;
+float: left;width: 100vw;height: 12em;padding-left: 1.4em;}
+.text{line-height: 1.2em;font-size: .8em;}
+}
+
+@media only screen and (min-width:375px) and (max-width:425px){
+    .one{padding: 0%;margin: 0%;padding-left: 1.5em;}
+}
+
+@media only screen and (min-width:425px) and (max-width:768px){
+    .one{padding: 0%;margin: 0%;padding-left: 1.5em;}
+    .hd{ font-size: 1.5em;} .hd3{font-size: 1.1em;}
+    .parr{font-size: 1em;line-height: 1.5em;font-weight: bold;
+    color: rgb(180, 187, 187);padding-bottom: .5em;}
+
+    .two{padding: 0%;margin: 0%;width: 100vw;height: 40vh;
+    padding-left: 1.4em;} .btn{height: 3em;}.mont{font-size: 1.4em;}
+
+    .three {padding: 0%;margin: 0%;float: left;width: 100vw;
+    height: 35vh;padding-left: 1.4em;padding-top: 1.6em;}
+    .text{line-height: 1.4em;font-size: .9em;}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .btn{width: 28em;}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    .one{padding: 0%;margin: 0%;padding-left: 4em;}
+    .hd {padding-top: .8em;} .hd3 {padding-top: .7em;}
+    .parr{font-size: 1.12em;line-height: 2em; font-weight: bold;color: rgb(171, 179, 179);
+    padding-bottom: 2em;padding-top: .3em;}
+   
+    .two {width: 43vw;height: 50.18vh;line-height: 2em;
+    padding-top: 2em;}
+    .btn{width: 28vw;} 
+
+
+    .three {width: 42.07vw;height: 39.3vh;padding-top:4em;}
+}
+
+@media only screen and (min-width:1440px) and (max-width:2560px){
+    .one{padding: 0%;margin: 0%;padding-left: 3.2em;}
+    .hd{font-size: 3em;} .hd3{font-size: 2.1em;}
+    .parr{font-size: 1.3em;line-height: 2.2em;}
+
+    .two{font-size: 1.5em;width: 42.33vw;padding-top: 1em;height: 51.3vh;}
+    .btn {height: 5em;} .sinn{font-size: 2em;}
+
+    .three{font-size: 1.4em;width: 44vw;line-height: .8em;padding-left: 3em;
+    height: 38vh;}
+    .parr1{padding-top: .7em;}
+}
+
+@media only screen and (min-width:2560px) and (max-width:4k)
